@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "";
+  src: url();
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+#btn {
+  margin: auto;
+  margin-top: 40%;
+  background-color: peachpuff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 12px;
+}
+
+#btn:hover {
+  box-shadow: 2px 2px 19px 2px grey;
+}
+
+:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=style.css.map */
